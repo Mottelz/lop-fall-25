@@ -1,0 +1,23 @@
+meta {
+  name: Books
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{baseUrl}}/books
+  body: formUrlEncoded
+  auth: inherit
+}
+
+body:form-urlencoded {
+  title: So Long and Thanks for All the Fish
+  author: Douglas Adams
+  ISBN: {{testISBN}}
+  year: 1984
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

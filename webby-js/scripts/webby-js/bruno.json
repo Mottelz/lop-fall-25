@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "webby-js",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

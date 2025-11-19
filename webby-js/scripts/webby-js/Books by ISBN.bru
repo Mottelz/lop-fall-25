@@ -1,0 +1,22 @@
+meta {
+  name: Books by ISBN
+  type: http
+  seq: 7
+}
+
+patch {
+  url: {{baseUrl}}/books/{{testISBN}}
+  body: formUrlEncoded
+  auth: inherit
+}
+
+body:form-urlencoded {
+  title: So Long and Thanks for All the Fish
+  author: Sir Douglas Adams
+  year: 2025
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
