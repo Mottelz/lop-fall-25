@@ -1,0 +1,16 @@
+meta {
+  name: Book By ISBN (Fake)
+  type: http
+  seq: 6
+}
+
+get {
+  url: {{baseUrl}}/books/{{fakeISBN}}
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

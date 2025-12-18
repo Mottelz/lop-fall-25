@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "webby-py",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
